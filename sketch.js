@@ -8,4 +8,6 @@ function setup() {
 
 function draw() {
     point(CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
+    line(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+    line(0, CANVAS_HEIGHT, CANVAS_WIDTH, 0);
 }
